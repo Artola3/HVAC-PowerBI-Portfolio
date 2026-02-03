@@ -40,34 +40,39 @@ Monitorización del **Ahorro Interanual (YoY)** y control presupuestario.
 * **KPIs:** Ahorro total vs Año Anterior.
 * **Visual:** Gráfico de columnas apiladas para estacionalidad de costes.
 
-![Panel Financiero](01_Financial.png)
+<img width="1400" height="794" alt="01_Financial" src="https://github.com/user-attachments/assets/2fe86a20-6559-4727-a5cc-8de6fffc3dc8" />
+
 
 ### 2. Matriz de Rendimiento Técnico (HR & Performance)
 Evaluación objetiva del personal cruzando **Volumen de Trabajo** vs. **Calidad**.
 * **Visual Clave:** Scatter Plot (Gráfico de Dispersión). Los técnicos en el cuadrante inferior izquierdo (Baja calidad/Bajo volumen) requieren intervención inmediata.
 
-![Panel Tecnicos](02_Tecnicos.png)
+<img width="1390" height="792" alt="02_Tecnicos" src="https://github.com/user-attachments/assets/f12804f7-7980-4d76-9c10-41ab6d00581d" />
+
 
 ### 3. Análisis de Causa Raíz (Decomposition Tree)
 Uso de Inteligencia Artificial para desglosar métricas complejas.
 * **Funcionalidad:** Este árbol permite entender *por qué* sube el ticket medio, desglosando el gasto por **Zona -> Máquina -> Tipo de Avería**.
 * **Insight:** Permite llegar al "origen del problema" en 3 clics.
 
-![Arbol de Descomposicion](03_Arbol_Descomposicion.png)
+<img width="1132" height="784" alt="03_Arbol_Descomposicion" src="https://github.com/user-attachments/assets/54c26268-de30-4637-bf87-e524b13a6457" />
+
 
 ### 4. Tablero de Eficiencia Operativa
 Auditoría de costes unitarios y desviaciones.
 * **Visual Clave:** Semáforos de desviación.
 * **Lógica:** Muestra en rojo cualquier tipología de máquina cuyo **Ticket Medio** haya subido respecto al año anterior, alertando de inflación de costes de repuestos.
 
-![Eficiencia](04_Eficiencia.png)
+<img width="1415" height="797" alt="04_Eficiencia" src="https://github.com/user-attachments/assets/c501d040-11d8-4b93-98e3-7dc8f9f458ac" />
+
 
 ### 5. Mapa de Distribución Geográfica
 Optimización de rutas y zonas de servicio.
 * **Visual:** Mapa de burbujas por volumen de intervenciones.
 * **Insight:** Visualización clara de la saturación en la zona del Baix Llobregat (Cornellà).
 
-![Mapa Operativo](05_Mapa.png)
+
+<img width="1389" height="785" alt="05_Mapa" src="https://github.com/user-attachments/assets/256c3d34-42bb-4b4e-801a-d2a551349c81" />
 
 ---
 *Proyecto desarrollado por **David Artola** como parte de mi portafolio profesional de Análisis de Datos.*
