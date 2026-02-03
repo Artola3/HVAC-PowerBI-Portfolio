@@ -3,18 +3,19 @@
 ## 📊 Contexto del Proyecto
 Este proyecto simula el ecosistema de datos de una empresa de servicios industriales (HVAC) que gestiona **2.000 órdenes de trabajo** anuales. 
 
-El objetivo principal fue transformar tablas desconectadas (Excel/CSV) en un sistema centralizado de inteligencia de negocios para responder preguntas críticas de **Rentabilidad, Productividad Técnica y Operaciones**.
+El objetivo principal fue transformar tablas  (Excel) en un sistema centralizado de inteligencia de negocios para responder preguntas críticas de **Rentabilidad, Productividad Técnica y Operaciones**.
 
 ## 💡 Hallazgos Reales (Data Storytelling)
 Al analizar los datos, el dashboard reveló insights que permitieron tomar decisiones estratégicas inmediatas:
 
 ### 1. 💰 Finanzas: El coste oculto del "Aire Acondicionado"
-Mientras que la atención operativa se centraba en las Calderas, el análisis financiero destapó que el **Aire Acondicionado** es el verdadero devorador de presupuesto en garantías, acumulando **más de 83.000€ en costes**, con un ticket medio superior a los **560€ por visita**.
-* **Acción:** Se ha propuesto una revisión de proveedores de piezas de AA para reducir el coste medio en un 10%.
+
+Se ha detectado que el vigente año se ha gastado mas en garantía sobre la unidad de negocio del "aire acondicionado" vs el año anterior. Sin embargo es el "Fan coil" el tipo de equipo que nos genera mas gasto promedio por intervención (con el dashboard de Eficiencia terminamos por determinar que es donde más piezas promedio en garantia se aplican).
+También identificamos a través de la gráficas podemos identificar las estacionalidades en el gasto y el ahorro vs el año anterior.
 
 ### 2. 🛠 Técnicos: Detección de necesidades de formación
 El dashboard de Recursos Humanos utiliza una métrica personalizada de **First Time Fix (FTF)** basada en el análisis de texto de las observaciones.
-* **Insight:** Se identificó que el técnico **T08 (Sergio Paredes)** tiene una tasa de resolución a la primera del **61%** (muy por debajo de la media del equipo).
+* **Insight:** Se identificó que el técnico **T08 (Sergio Paredes)** tiene una tasa de resolución a la primera del **53'85%** (muy por debajo de la media del equipo).
 * **Acción:** Programa de capacitación específico para T08, evitando su despido y mejorando su eficiencia.
 
 ### 3. 📍 Operaciones: Saturación en Cornellà
@@ -45,7 +46,7 @@ Monitorización del **Ahorro Interanual (YoY)** y control presupuestario.
 
 ### 2. Matriz de Rendimiento Técnico (HR & Performance)
 Evaluación objetiva del personal cruzando **Volumen de Trabajo** vs. **Calidad**.
-* **Visual Clave:** Scatter Plot (Gráfico de Dispersión). Los técnicos en el cuadrante inferior izquierdo (Baja calidad/Bajo volumen) requieren intervención inmediata.
+* **Visual Clave:** Nos permite analizar los ratios de resolución en la primera intervención por técnico, esto se traslada a una atención mas eficiente y por ende repercute en la satisfacción del cliente.
 
 <img width="1390" height="792" alt="02_Tecnicos" src="https://github.com/user-attachments/assets/f12804f7-7980-4d76-9c10-41ab6d00581d" />
 
@@ -61,7 +62,7 @@ Uso de Inteligencia Artificial para desglosar métricas complejas.
 ### 4. Tablero de Eficiencia Operativa
 Auditoría de costes unitarios y desviaciones.
 * **Visual Clave:** Semáforos de desviación.
-* **Lógica:** Muestra en rojo cualquier tipología de máquina cuyo **Ticket Medio** haya subido respecto al año anterior, alertando de inflación de costes de repuestos.
+* **Lógica:** Muestra donde se aplican mas piezas promedio en garantia, así como identificar estacionalidad en los acuerdos de atención (SLA's), también podemos ver que técnicos requieren revisión en este apartado.
 
 <img width="1415" height="797" alt="04_Eficiencia" src="https://github.com/user-attachments/assets/c501d040-11d8-4b93-98e3-7dc8f9f458ac" />
 
