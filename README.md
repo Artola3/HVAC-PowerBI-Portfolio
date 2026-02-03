@@ -52,8 +52,8 @@ Evaluación objetiva del personal cruzando **Volumen de Trabajo** vs. **Calidad*
 
 ### 3. Análisis de Causa Raíz (Decomposition Tree)
 Uso de Inteligencia Artificial para desglosar métricas complejas.
-* **Funcionalidad:** Este árbol permite entender *por qué* sube el ticket medio, desglosando el gasto por **Zona -> Máquina -> Tipo de Avería**.
-* **Insight:** Permite llegar al "origen del problema" en 3 clics.
+* **Funcionalidad:** Este árbol permite ver el número de intervenciones por técnico, cuáles son los tipos de equipo que mas ha atendido y que piezas ha aplicado en cada asistencia por equipo.
+* **Insight:** Permite tener una trazabilidad de las piezas que mas fallan.
 
 <img width="1132" height="784" alt="03_Arbol_Descomposicion" src="https://github.com/user-attachments/assets/54c26268-de30-4637-bf87-e524b13a6457" />
 
